@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
+
+{% include 'head.html' %}
+
 <body>
 
+    {% include 'header.html' %}
+
+    <!--extends로 base.html을 상속받고 block구문안의 내용만 자유롭게 수정이 가능하다-->
+    {% block content %}
+        <div style="height: 20rem; background-color: #38df81; border-radius: 1rem; margin: 2rem;">
+
+        </div>
+    {% endblock%}
+
+    {% include 'footer.html' %}
 
 </body>
 </html>
-Hello world!
