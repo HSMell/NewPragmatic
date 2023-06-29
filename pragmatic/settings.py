@@ -127,6 +127,15 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+# os는 라이브러리 path는 경로 join 합침
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+# 정적파일을 따로 관리를 함
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+    "/var/www/static/",
+]
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 

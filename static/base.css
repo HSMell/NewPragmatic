@@ -1,0 +1,21 @@
+.pragamatic_footer {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.pragmatic_footer_button {
+    font-size: .8rem;
+}
+
+.pragmatic_footer_logo {
+    font-family : 'Lobster', cursive;
+}
+
+.pragamatic_header {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.pragamatic_header_logo{
+    font-family: 'Lobster', cursive;
+}
